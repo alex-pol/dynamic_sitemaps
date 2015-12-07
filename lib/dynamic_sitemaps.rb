@@ -12,10 +12,11 @@ module DynamicSitemaps
   DEFAULT_FOLDER = "sitemaps"
   DEFAULT_INDEX_FILE_NAME = "sitemap.xml"
   DEFAULT_ALWAYS_GENERATE_INDEX = false
-  DEFAULT_PROTOCOL = "http"
+  DEFAULT_PROTOCOL = "https"
   SEARCH_ENGINE_PING_URLS = [
     "http://www.google.com/webmasters/sitemaps/ping?sitemap=%s",
-    "http://www.bing.com/webmaster/ping.aspx?siteMap=%s"
+    "http://www.bing.com/webmaster/ping.aspx?siteMap=%s",
+    "http://www.webmaster.yandex.ru/ping?sitemap=%s"
   ]
   DEFAULT_PING_ENVIRONMENTS = ["production"]
 
